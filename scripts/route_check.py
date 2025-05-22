@@ -452,8 +452,7 @@ def filter_out_local_p2p_ips(namespace, keys):
     for k in keys:
         if k in if_tbl_ips:
             continue
-
-    rt.append(k)
+        rt.append(k)
 
     return rt
 
